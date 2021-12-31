@@ -1,6 +1,26 @@
-# Flask-Starter
+# Flask-Starter    
+
+> NOTE: This README updated for classroom clarity! Code is forked from [ksh7/flask-starter](https://github.com/ksh7/flask-starter). 
 
 Flask-Starter is a boilerplate starter template designed to help you quickstart your Flask web application development. It has all the ready-to-use bare minimum essentials.
+
+## Primary Goals
+
+ - To help you save lots of hours as a developer, even if for a hobby project or commercial project :-)
+ - To provide basic features of standard web apps, while staying as unopinionated as possible 
+ - To make back-end development quick to start, with robust foundations
+ - To help you quickly learn how to build a Flask based web application
+ - To help you quick start coding your web app's main logic and features
+
+## Table of Contents
+
+1. [Getting Started](#getting-started)
+1. [Features](#features)
+1. [Screenshots](#screenshots)
+1. [Project Structure](#project-structure)
+1. [Modules](#modules)
+1. [Testing](#testing)
+1. [Need Help?](#need-help)
 
 ## Features
 
@@ -19,56 +39,20 @@ Flask-Starter is a boilerplate starter template designed to help you quickstart 
 - Test & Production Configs
 - Tests [To Do]
 
-
-## Flask 2.0 `async` or not `async`
-
- - asynchronous support in Flask 2.0 is an amazing feature
- - however, use it only when it has a clear advantage over the equivalent synchronous code
- - write asynchronous code, if your application's routes, etc. are making heavy I/O-bound operations, like:
-    - sending emails, making API calls to external servers, working with the file system, etc
- - otherwise, if your application is doing CPU-bound operations or long-running tasks, like:
-    - processing images or large files, creating backups or running AI/ML models, etc
-    - it is advised to use tools like "Celery" or "Huey", etc.
-
-
-## `async` demo in our application
-
-Check `emails/__init__.py` to see how emails being sent in `async` mode
-
-
-## Primary Goals
-
- - To help you save lots of hours as a developer, even if for a hobby project or commercial project :-)
- - To provide basic features of standard web apps, while staying as unopinionated as possible 
- - To make back-end development quick to start, with robust foundations
- - To help you quickly learn how to build a Flask based web application
- - To help you quick start coding your web app's main logic and features
-
-
-## Table of Contents
-
-1. [Getting Started](#getting-started)
-1. [Screenshots](#screenshots)
-1. [Project Structure](#project-structure)
-1. [Modules](#modules)
-1. [Testing](#testing)
-1. [Need Help?](#need-help)
-
-
 ## Getting Started
 
 clone the project
 
 ```bash
-$ git clone https://github.com/ksh7/flask-starter.git
+$ git clone https://github.com/droxey/flask-starter.git
 $ cd flask-starter
 ```
 
 create virtual environment using python3 and activate it (keep it outside our project directory)
 
 ```bash
-$ python3 -m venv /path/to/your/virtual/environment
-$ source <path/to/venv>/bin/activate
+$ python3 -m venv venv
+$ source venv/bin/activate
 ```
 
 install dependencies in virtualenv
@@ -201,6 +185,20 @@ This application uses the following modules
  - Bootstrap (bare minimum so that you can replace it with any frontend library)
  - Jinja2
 
+## Flask 2.0 `async` or not `async`
+
+ - asynchronous support in Flask 2.0 is an amazing feature
+ - however, use it only when it has a clear advantage over the equivalent synchronous code
+ - write asynchronous code, if your application's routes, etc. are making heavy I/O-bound operations, like:
+    - sending emails, making API calls to external servers, working with the file system, etc
+ - otherwise, if your application is doing CPU-bound operations or long-running tasks, like:
+    - processing images or large files, creating backups or running AI/ML models, etc
+    - it is advised to use tools like "Celery" or "Huey", etc.
+
+
+## `async` demo in our application
+
+Check `emails/__init__.py` to see how emails being sent in `async` mode
 
 ## Testing
 

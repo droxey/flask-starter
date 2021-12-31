@@ -88,13 +88,13 @@ $ flask run
 
 ## Screenshots
 
-![Homepage](/screenshots/homepage.png)
-![SignUp](/screenshots/signup.png)
-![Login](/screenshots/login.png)
-![Dashboard](/screenshots/dashboard.png)
-![Tasks](/screenshots/tasks.png)
-![Profile](/screenshots/profile.png)
-![Admin](/screenshots/admin.png)
+![Homepage](https://github.com/ksh7/flask-starter/blob/main/screenshots/homepage.png?raw=true)
+![SignUp](https://github.com/ksh7/flask-starter/blob/main/screenshots/signup.png?raw=true)
+![Login](https://github.com/ksh7/flask-starter/blob/main/screenshots/login.png?raw=true)
+![Dashboard](https://github.com/ksh7/flask-starter/blob/main/screenshots/dashboard.png?raw=true)
+![Tasks](https://github.com/ksh7/flask-starter/blob/main/screenshots/tasks.png?raw=true)
+![Profile](https://github.com/ksh7/flask-starter/blob/main/screenshots/profile.png?raw=true)
+![Admin](https://github.com/ksh7/flask-starter/blob/main/screenshots/admin.png?raw=true)
 
 
 ## Project Structure
